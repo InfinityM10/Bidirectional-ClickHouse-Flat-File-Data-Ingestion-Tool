@@ -1,0 +1,91 @@
+ClickHouse & Flat File Data Ingestion Tool Prompts
+
+Project Setup Prompts
+
+1. "I need to create a web application for bidirectional data transfer between ClickHouse database and flat files. What's the best tech stack for this considering I need both backend and frontend components?"
+
+2. "Can you help me create the initial project structure for a Go/React application that will handle data transfer between ClickHouse and flat files?"
+
+3. "How should I organize the directory structure for a web app with Go backend and React frontend that handles database to file transfers?"
+
+Backend Development Prompts
+
+4. "What's the best way to connect to ClickHouse from Go using JWT authentication? I need to fetch schema information and query data."
+
+5. "Can you provide me with Go code to establish a connection to ClickHouse using JWT token authentication?"
+
+6. "How do I read schema information from a ClickHouse database using Go? I need to get table names and column definitions."
+
+7. "How can I efficiently handle large data transfers from ClickHouse to files in Go? Should I use streaming or batching?"
+
+8. "What's the most effective way to parse a flat file (CSV/TSV) in Go and extract its schema structure?"
+
+9. "How do I create a new table in ClickHouse dynamically based on flat file data structure?"
+
+10. "How should I implement the data transfer process in Go to efficiently move data from ClickHouse to flat files?"
+
+11. "Write a Go function that transfers selected columns from a flat file to a ClickHouse database with proper error handling."
+
+12. "How do I implement batch processing for large CSV files being uploaded to ClickHouse?"
+
+13. "How can I count the number of records processed during a data transfer operation in Go?"
+
+14. "How do I create a REST API in Go that exposes endpoints for connecting to ClickHouse, fetching tables, and executing data transfers?"
+
+15. "What's the best approach for error handling in a Go application that interfaces with both databases and file systems?"
+
+Frontend Development Prompts
+
+16. "How do I create a React form for ClickHouse connection details including host, port, database, username, and JWT token?"
+
+17. "Can you create a React component for selecting between ClickHouse and Flat File as source and target?"
+
+18. "How do I implement a file upload component in React for flat file selection and preview?"
+
+19. "Design a React component that shows a list of database tables and allows users to select one for data transfer."
+
+20. "How can I create a React UI that displays table columns as selectable checkboxes for data transfer?"
+
+21. "What's the best way to show a progress indicator during data transfer operations in React?"
+
+22. "Create a React component that shows the results of a data transfer operation, including record count."
+
+23. "How do I connect my React frontend with my Go backend for the data transfer application?"
+
+24. "What's the best state management approach for a React application that needs to track connection status, selected tables, columns, and transfer progress?"
+
+ClickHouse Specific Prompts
+
+25. "How do I form a JOIN query for multiple ClickHouse tables based on user-selected keys?"
+
+26. "What's the syntax for creating a new table in ClickHouse from a Go application?"
+
+27. "How do I handle different data types when transferring from flat files to ClickHouse? What conversions might be needed?"
+
+28. "What's the most efficient way to batch insert data into ClickHouse from Go?"
+
+Testing Prompts
+
+29. "How do I write unit tests for my Go functions that handle ClickHouse connections and data transfers?"
+
+30. "What's a good approach for testing the React components of my data transfer application?"
+
+31. "How can I create mock data for testing my ClickHouse to flat file transfer functionality?"
+
+32. "What edge cases should I test for in a data transfer application between databases and files?"
+
+Docker and Deployment Prompts
+
+33. "How do I set up a Docker container for local ClickHouse testing with example datasets like uk_price_paid?"
+
+34. "Can you help me create a docker-compose setup that includes my Go/React application and a ClickHouse instance for testing?"
+
+35. "What's the best way to package my bidirectional data transfer application for deployment?"
+
+Documentation Prompts
+
+36. "Help me write a comprehensive README.md for my ClickHouse and Flat File data ingestion tool that explains setup and usage."
+
+37. "What information should I include in my documentation about JWT authentication with ClickHouse?"
+
+38. "How should I document the API endpoints of my data transfer application?"
