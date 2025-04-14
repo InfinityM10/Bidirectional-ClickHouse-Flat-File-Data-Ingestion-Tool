@@ -25,7 +25,7 @@ A web application that allows bidirectional data transfer between ClickHouse dat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com//clickhouse-flat-ingestion.git
+    git clone https://github.com/InfinityM10/Bidirectional-ClickHouse-Flat-File-Data-Ingestion-Tool.git
    cd clickhouse-flat-ingestion
    ```
 
